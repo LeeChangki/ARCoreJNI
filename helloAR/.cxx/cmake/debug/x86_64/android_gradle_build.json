@@ -1,0 +1,86 @@
+{
+  "stringTable": {
+    "0": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -Wall -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
+    "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\CMakeLists.txt",
+    "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "buildCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\x86_64\" native-lib",
+      "buildType": "debug",
+      "toolchain": "273806531",
+      "abi": "x86_64",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\hello_ar_application.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\background_renderer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\point_cloud_renderer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\augmented_image_renderer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\obj_renderer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\plane_renderer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\texture.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\util.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\testProject\\graphics\\sampler\\helloAR\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libnative-lib.so",
+      "runtimeFiles": [
+        "D:\\testProject\\graphics\\sampler\\helloAR\\build\\arcore-native\\jni\\x86_64\\libarcore_sdk_c.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "273806531": {
+      "cppCompilerExecutable": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

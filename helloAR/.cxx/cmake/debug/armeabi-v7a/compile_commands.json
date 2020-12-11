@@ -1,0 +1,55 @@
+[
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\native-lib.cpp",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\native-lib.cpp"
+},
+
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\hello_ar_application.cc.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\hello_ar_application.cc",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\hello_ar_application.cc"
+},
+
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\background_renderer.cc.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\background_renderer.cc",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\background_renderer.cc"
+},
+
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\point_cloud_renderer.cc.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\point_cloud_renderer.cc",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\point_cloud_renderer.cc"
+},
+
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\augmented_image_renderer.cc.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\augmented_image_renderer.cc",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\augmented_image_renderer.cc"
+},
+
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\obj_renderer.cc.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\obj_renderer.cc",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\obj_renderer.cc"
+},
+
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\plane_renderer.cc.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\plane_renderer.cc",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\plane_renderer.cc"
+},
+
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\texture.cc.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\texture.cc",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\texture.cc"
+},
+
+{
+  "directory": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\util.cc.o -c D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\util.cc",
+  "file": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\util.cc"
+}
+]

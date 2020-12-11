@@ -1,0 +1,26 @@
+Executable : C:\Users\ChangkiLee\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\testProject\graphics\sampler\helloAR\src\main\jni
+-DCMAKE_CXX_FLAGS=-std=c++11 -Wall
+-DCMAKE_FIND_ROOT_PATH=D:\testProject\graphics\sampler\helloAR\.cxx\cmake\debug\prefab\arm64-v8a\prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\ChangkiLee\AppData\Local\Android\Sdk\ndk\21.2.6472646\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=C:\Users\ChangkiLee\AppData\Local\Android\Sdk\ndk\21.2.6472646
+-DANDROID_PLATFORM=android-24
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_ANDROID_NDK=C:\Users\ChangkiLee\AppData\Local\Android\Sdk\ndk\21.2.6472646
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\testProject\graphics\sampler\helloAR\build\intermediates\cmake\debug\obj\arm64-v8a
+-DCMAKE_MAKE_PROGRAM=C:\Users\ChangkiLee\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_STL=c++_static
+-DARCORE_LIBPATH=D:\testProject\graphics\sampler\helloAR\build/arcore-native/jni
+-DARCORE_INCLUDE=D:\testProject\graphics\sampler/libraries/include
+-DGLM_INCLUDE=D:\testProject\graphics\sampler/third_party/glm
+-BD:\testProject\graphics\sampler\helloAR\.cxx\cmake\debug\arm64-v8a
+-GNinja
+jvmArgs : 
+
+Build command args:
