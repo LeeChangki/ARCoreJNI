@@ -1,21 +1,21 @@
 {
   "buildFiles": [
     "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
-    "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\CMakeLists.txt",
     "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\platforms.cmake"
   ],
   "cleanCommands": [
-    "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\release\\x86\" clean"
+    "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\release\\x86\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Release-x86": {
       "artifactName": "native-lib",
-      "buildCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\release\\x86\" native-lib",
+      "buildCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\release\\x86\" native-lib",
       "abi": "x86",
-      "output": "D:\\testProject\\graphics\\sampler\\helloAR\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-lib.so",
+      "output": "D:\\ARCoreJNI\\helloAR\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-lib.so",
       "runtimeFiles": [
-        "D:\\testProject\\graphics\\sampler\\helloAR\\build\\arcore-native\\jni\\x86\\libarcore_sdk_c.so"
+        "D:\\ARCoreJNI\\helloAR\\build\\arcore-native\\jni\\x86\\libarcore_sdk_c.so"
       ]
     }
   }

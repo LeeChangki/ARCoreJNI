@@ -1,4 +1,4 @@
-package com.kt.sampler;
+package com.kt.sample;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,9 +13,9 @@ import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.kt.helloAR.JniInterface;
-import com.kt.sampler.utils.CameraPermissionHelper;
-import com.kt.sampler.utils.DepthSettings;
-import com.kt.sampler.utils.InstantPlacementSettings;
+import com.kt.sample.utils.CameraPermissionHelper;
+import com.kt.sample.utils.DepthSettings;
+import com.kt.sample.utils.InstantPlacementSettings;
 
 public class ARCoreActivity extends AppCompatActivity implements DisplayManager.DisplayListener {
     private static final String TAG = ARCoreActivity.class.getSimpleName();

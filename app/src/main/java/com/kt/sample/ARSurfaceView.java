@@ -1,4 +1,4 @@
-package com.kt.sampler;
+package com.kt.sample;
 
 import android.app.Activity;
 import android.content.Context;

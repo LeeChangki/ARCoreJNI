@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a",
-    "cmakeServerLogFile": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cxx\\debug\\arm64-v8a",
+    "cmakeArtifactsBaseFolder": "D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a",
+    "cmakeServerLogFile": "D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "D:\\ARCoreJNI\\helloAR\\.cxx\\cxx\\debug\\arm64-v8a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,7 +15,7 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a",
+      "buildRoot": "D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a",
       "cmakeToolchain": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
@@ -25,7 +25,7 @@
         },
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
+          "value": "D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -61,7 +61,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "D:\\testProject\\graphics\\sampler\\helloAR\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+          "value": "D:\\ARCoreJNI\\helloAR\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -81,33 +81,33 @@
         },
         {
           "name": "ARCORE_LIBPATH",
-          "value": "D:\\testProject\\graphics\\sampler\\helloAR\\build/arcore-native/jni"
+          "value": "D:\\ARCoreJNI\\helloAR\\build/arcore-native/jni"
         },
         {
           "name": "ARCORE_INCLUDE",
-          "value": "D:\\testProject\\graphics\\sampler/libraries/include"
+          "value": "D:\\ARCoreJNI/libraries/include"
         },
         {
           "name": "GLM_INCLUDE",
-          "value": "D:\\testProject\\graphics\\sampler/third_party/glm"
+          "value": "D:\\ARCoreJNI/third_party/glm"
         }
       ]
     }
   },
-  "cxxBuildFolder": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a",
+  "cxxBuildFolder": "D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a",
   "info": {
     "abi": "ARM64_V8A",
     "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a",
+  "originalCxxBuildFolder": "D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\debug\\arm64-v8a",
   "variant": {
     "buildSystemArgumentList": [
       "-DANDROID_STL\u003dc++_static",
-      "-DARCORE_LIBPATH\u003dD:\\testProject\\graphics\\sampler\\helloAR\\build/arcore-native/jni",
-      "-DARCORE_INCLUDE\u003dD:\\testProject\\graphics\\sampler/libraries/include",
-      "-DGLM_INCLUDE\u003dD:\\testProject\\graphics\\sampler/third_party/glm"
+      "-DARCORE_LIBPATH\u003dD:\\ARCoreJNI\\helloAR\\build/arcore-native/jni",
+      "-DARCORE_INCLUDE\u003dD:\\ARCoreJNI/libraries/include",
+      "-DGLM_INCLUDE\u003dD:\\ARCoreJNI/third_party/glm"
     ],
     "buildTargetSet": [],
     "cFlagsList": [],
@@ -125,12 +125,12 @@
         "ninjaExe": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
       "cmakeToolchainFile": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx",
+      "cxxFolder": "D:\\ARCoreJNI\\helloAR\\.cxx",
       "gradleModulePathName": ":helloAR",
-      "intermediatesFolder": "D:\\testProject\\graphics\\sampler\\helloAR\\build\\intermediates",
-      "makeFile": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\CMakeLists.txt",
-      "moduleBuildFile": "D:\\testProject\\graphics\\sampler\\helloAR\\build.gradle",
-      "moduleRootFolder": "D:\\testProject\\graphics\\sampler\\helloAR",
+      "intermediatesFolder": "D:\\ARCoreJNI\\helloAR\\build\\intermediates",
+      "makeFile": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\CMakeLists.txt",
+      "moduleBuildFile": "D:\\ARCoreJNI\\helloAR\\build.gradle",
+      "moduleRootFolder": "D:\\ARCoreJNI\\helloAR",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -194,13 +194,13 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.2.6472646",
       "project": {
-        "compilerSettingsCacheFolder": "D:\\testProject\\graphics\\sampler\\.cxx",
-        "cxxFolder": "D:\\testProject\\graphics\\sampler\\.cxx",
+        "compilerSettingsCacheFolder": "D:\\ARCoreJNI\\.cxx",
+        "cxxFolder": "D:\\ARCoreJNI\\.cxx",
         "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "D:\\testProject\\graphics\\sampler",
+        "rootBuildGradleFolder": "D:\\ARCoreJNI",
         "sdkFolder": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk",
         "isPrefabEnabled": false
       },
@@ -217,13 +217,13 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "D:\\testProject\\graphics\\sampler\\helloAR\\build\\intermediates\\cmake\\debug\\obj",
+    "objFolder": "D:\\ARCoreJNI\\helloAR\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
       "ARM64_V8A"
     ],
-    "prefabDirectory": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\prefab",
+    "prefabDirectory": "D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
+  "prefabFolder": "D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
 }

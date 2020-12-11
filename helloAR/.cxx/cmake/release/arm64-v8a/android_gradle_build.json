@@ -1,75 +1,75 @@
 {
   "stringTable": {
-    "0": "D:/testProject/graphics/sampler/helloAR/.cxx/cmake/release/arm64-v8a",
-    "1": "--target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -ID:/testProject/graphics/sampler/helloAR/src/main/jni/helloAR -isystem D:/testProject/graphics/sampler/libraries/include -ID:/testProject/graphics/sampler/third_party/glm -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -Wall -O2 -DNDEBUG -fPIC"
+    "0": "D:/ARCoreJNI/helloAR/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -ID:/ARCoreJNI/helloAR/src/main/jni/helloAR -isystem D:/ARCoreJNI/libraries/include -ID:/ARCoreJNI/third_party/glm -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -Wall -O2 -DNDEBUG -fPIC"
   },
   "buildFiles": [
     "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
-    "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\CMakeLists.txt",
     "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\platforms.cmake"
   ],
   "cleanCommands": [
-    "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+    "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\release\\arm64-v8a\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Release-arm64-v8a": {
-      "buildCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\testProject\\graphics\\sampler\\helloAR\\.cxx\\cmake\\release\\arm64-v8a\" native-lib",
+      "buildCommand": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\ARCoreJNI\\helloAR\\.cxx\\cmake\\release\\arm64-v8a\" native-lib",
       "buildType": "release",
       "toolchain": "273806531",
       "abi": "arm64-v8a",
       "artifactName": "native-lib",
       "files": [
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\native-lib.cpp",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\native-lib.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\hello_ar_application.cc",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\hello_ar_application.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\background_renderer.cc",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\background_renderer.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\point_cloud_renderer.cc",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\point_cloud_renderer.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\augmented_image_renderer.cc",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\augmented_image_renderer.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\obj_renderer.cc",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\obj_renderer.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\plane_renderer.cc",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\plane_renderer.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\texture.cc",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\texture.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "D:\\testProject\\graphics\\sampler\\helloAR\\src\\main\\jni\\helloAR\\util.cc",
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\util.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "D:\\testProject\\graphics\\sampler\\helloAR\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libnative-lib.so",
+      "output": "D:\\ARCoreJNI\\helloAR\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libnative-lib.so",
       "runtimeFiles": [
-        "D:\\testProject\\graphics\\sampler\\helloAR\\build\\arcore-native\\jni\\arm64-v8a\\libarcore_sdk_c.so"
+        "D:\\ARCoreJNI\\helloAR\\build\\arcore-native\\jni\\arm64-v8a\\libarcore_sdk_c.so"
       ]
     }
   },

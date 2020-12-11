@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ARCoreActivity">
 
-    <com.kt.sampler.ARSurfaceView
+    <com.kt.sample.ARSurfaceView
         android:id="@+id/surfaceview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
