@@ -17,4 +17,5 @@ local.properties
 build
 app/build/
 helloAR/build/
+helloAR/.cxx/
 *.so

@@ -31,6 +31,18 @@
 
 {
   "directory": "D:/ARCoreJNI/helloAR/.cxx/cmake/release/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/ARCoreJNI/helloAR/src/main/jni/helloAR -isystem D:/ARCoreJNI/libraries/include -ID:/ARCoreJNI/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -Oz -DNDEBUG  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\augmented_face_renderer.cc.o -c D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\augmented_face_renderer.cc",
+  "file": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\augmented_face_renderer.cc"
+},
+
+{
+  "directory": "D:/ARCoreJNI/helloAR/.cxx/cmake/release/armeabi-v7a",
+  "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/ARCoreJNI/helloAR/src/main/jni/helloAR -isystem D:/ARCoreJNI/libraries/include -ID:/ARCoreJNI/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -Oz -DNDEBUG  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\face_obj_renderer.cc.o -c D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\face_obj_renderer.cc",
+  "file": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\face_obj_renderer.cc"
+},
+
+{
+  "directory": "D:/ARCoreJNI/helloAR/.cxx/cmake/release/armeabi-v7a",
   "command": "C:\\Users\\ChangkiLee\\AppData\\Local\\Android\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --gcc-toolchain=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/ARCoreJNI/helloAR/src/main/jni/helloAR -isystem D:/ARCoreJNI/libraries/include -ID:/ARCoreJNI/third_party/glm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -Wall -Oz -DNDEBUG  -fPIC   -o CMakeFiles\\native-lib.dir\\helloAR\\obj_renderer.cc.o -c D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\obj_renderer.cc",
   "file": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\obj_renderer.cc"
 },

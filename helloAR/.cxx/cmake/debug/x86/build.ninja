@@ -72,6 +72,20 @@ build CMakeFiles/native-lib.dir/helloAR/augmented_image_renderer.cc.o: CXX_COMPI
   INCLUDES = -ID:/ARCoreJNI/helloAR/src/main/jni/helloAR -isystem D:/ARCoreJNI/libraries/include -ID:/ARCoreJNI/third_party/glm
   OBJECT_DIR = CMakeFiles\native-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\helloAR
+build CMakeFiles/native-lib.dir/helloAR/augmented_face_renderer.cc.o: CXX_COMPILER__native-lib D$:/ARCoreJNI/helloAR/src/main/jni/helloAR/augmented_face_renderer.cc || cmake_object_order_depends_target_native-lib
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\helloAR\augmented_face_renderer.cc.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -ID:/ARCoreJNI/helloAR/src/main/jni/helloAR -isystem D:/ARCoreJNI/libraries/include -ID:/ARCoreJNI/third_party/glm
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\helloAR
+build CMakeFiles/native-lib.dir/helloAR/face_obj_renderer.cc.o: CXX_COMPILER__native-lib D$:/ARCoreJNI/helloAR/src/main/jni/helloAR/face_obj_renderer.cc || cmake_object_order_depends_target_native-lib
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\helloAR\face_obj_renderer.cc.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -ID:/ARCoreJNI/helloAR/src/main/jni/helloAR -isystem D:/ARCoreJNI/libraries/include -ID:/ARCoreJNI/third_party/glm
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\helloAR
 build CMakeFiles/native-lib.dir/helloAR/obj_renderer.cc.o: CXX_COMPILER__native-lib D$:/ARCoreJNI/helloAR/src/main/jni/helloAR/obj_renderer.cc || cmake_object_order_depends_target_native-lib
   DEFINES = -Dnative_lib_EXPORTS
   DEP_FILE = CMakeFiles\native-lib.dir\helloAR\obj_renderer.cc.o.d
@@ -108,7 +122,7 @@ build CMakeFiles/native-lib.dir/helloAR/util.cc.o: CXX_COMPILER__native-lib D$:/
 #############################################
 # Link the shared library D:\ARCoreJNI\helloAR\build\intermediates\cmake\debug\obj\x86\libnative-lib.so
 
-build D$:/ARCoreJNI/helloAR/build/intermediates/cmake/debug/obj/x86/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/native-lib.cpp.o CMakeFiles/native-lib.dir/helloAR/hello_ar_application.cc.o CMakeFiles/native-lib.dir/helloAR/background_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/point_cloud_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/augmented_image_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/obj_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/plane_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/texture.cc.o CMakeFiles/native-lib.dir/helloAR/util.cc.o | C$:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/24/liblog.so D$:/ARCoreJNI/helloAR/build/arcore-native/jni/x86/libarcore_sdk_c.so
+build D$:/ARCoreJNI/helloAR/build/intermediates/cmake/debug/obj/x86/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/native-lib.cpp.o CMakeFiles/native-lib.dir/helloAR/hello_ar_application.cc.o CMakeFiles/native-lib.dir/helloAR/background_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/point_cloud_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/augmented_image_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/augmented_face_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/face_obj_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/obj_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/plane_renderer.cc.o CMakeFiles/native-lib.dir/helloAR/texture.cc.o CMakeFiles/native-lib.dir/helloAR/util.cc.o | C$:/Users/ChangkiLee/AppData/Local/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/24/liblog.so D$:/ARCoreJNI/helloAR/build/arcore-native/jni/x86/libarcore_sdk_c.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -llog -landroid -ljnigraphics -lEGL -lGLESv2 D:/ARCoreJNI/helloAR/build/arcore-native/jni/x86/libarcore_sdk_c.so -latomic -lm

@@ -1,2 +1,28 @@
 ninja: Entering directory `D:\ARCoreJNI\helloAR\.cxx\cmake\debug\arm64-v8a'
-[1/1] Linking CXX shared library D:\ARCoreJNI\helloAR\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so
+[1/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/background_renderer.cc.o
+[2/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/point_cloud_renderer.cc.o
+[3/12] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[4/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/augmented_face_renderer.cc.o
+D:/ARCoreJNI/helloAR/src/main/jni/helloAR/augmented_face_renderer.cc:11:24: warning: unused variable 'kVertexShaderFilename' [-Wunused-const-variable]
+        constexpr char kVertexShaderFilename[] = "shaders/object.vert";
+                       ^
+D:/ARCoreJNI/helloAR/src/main/jni/helloAR/augmented_face_renderer.cc:12:24: warning: unused variable 'kFragmentShaderFilename' [-Wunused-const-variable]
+        constexpr char kFragmentShaderFilename[] = "shaders/object.frag";
+                       ^
+2 warnings generated.
+[5/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/augmented_image_renderer.cc.o
+[6/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/hello_ar_application.cc.o
+D:/ARCoreJNI/helloAR/src/main/jni/helloAR/hello_ar_application.cc:31:17: warning: unused variable 'kWhite' [-Wunused-const-variable]
+const glm::vec3 kWhite = {255, 255, 255};
+                ^
+1 warning generated.
+[7/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/face_obj_renderer.cc.o
+[8/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/texture.cc.o
+[9/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/obj_renderer.cc.o
+[10/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/plane_renderer.cc.o
+[11/12] Building CXX object CMakeFiles/native-lib.dir/helloAR/util.cc.o
+D:/ARCoreJNI/helloAR/src/main/jni/helloAR/util.cc:82:21: warning: unused function 'CallJavaLoadTexture' [-Wunused-function]
+        static void CallJavaLoadTexture(int target, jobject image_obj) {
+                    ^
+1 warning generated.
+[12/12] Linking CXX shared library D:\ARCoreJNI\helloAR\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so

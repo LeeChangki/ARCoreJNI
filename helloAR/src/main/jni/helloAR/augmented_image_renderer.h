@@ -38,7 +38,7 @@ class AugmentedImageRenderer {
   // Draws frames on ArAugmentedImage, with center location at ArAnchor.
   void Draw(const glm::mat4& projection_mat, const glm::mat4& view_mat,
             const float* color_correction4, const float* color_tint_rgba,
-            ArSession* ar_session, const ArAugmentedImage* ar_image,
+            const ArSession* ar_session, const ArAugmentedImage* ar_image,
             const ArAnchor* ar_anchor) const;
 
  private:

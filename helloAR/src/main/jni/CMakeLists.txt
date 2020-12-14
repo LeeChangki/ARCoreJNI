@@ -14,6 +14,8 @@ set( CPP_FILES
         helloAR/background_renderer.cc
         helloAR/point_cloud_renderer.cc
         helloAR/augmented_image_renderer.cc
+        helloAR/augmented_face_renderer.cc
+        helloAR/face_obj_renderer.cc
         helloAR/obj_renderer.cc
         helloAR/plane_renderer.cc
         helloAR/texture.cc

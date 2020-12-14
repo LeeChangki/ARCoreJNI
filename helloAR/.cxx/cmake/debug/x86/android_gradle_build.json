@@ -46,6 +46,16 @@
           "workingDirectoryOrdinal": 0
         },
         {
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\augmented_face_renderer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\face_obj_renderer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
           "src": "D:\\ARCoreJNI\\helloAR\\src\\main\\jni\\helloAR\\obj_renderer.cc",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
@@ -68,9 +78,7 @@
       ],
       "headers": [],
       "output": "D:\\ARCoreJNI\\helloAR\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so",
-      "runtimeFiles": [
-        "D:\\ARCoreJNI\\helloAR\\build\\arcore-native\\jni\\x86\\libarcore_sdk_c.so"
-      ]
+      "runtimeFiles": []
     }
   },
   "toolchains": {

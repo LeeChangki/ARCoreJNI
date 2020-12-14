@@ -170,7 +170,7 @@ void Log4x4Matrix(const float raw_matrix[16]);
 
 // Get transformation matrix from ArAnchor.
 void GetTransformMatrixFromAnchor(const ArAnchor& ar_anchor,
-                                  ArSession* ar_session,
+                                  const ArSession* ar_session,
                                   glm::mat4* out_model_mat);
 
 // Get the plane's normal from center pose.
@@ -199,6 +199,9 @@ float CalculateDistanceToPlane(const ArSession& ar_session,
     void ConvertRgbaToGrayscale(const uint8_t* image_pixel_buffer, int32_t width,
                                 int32_t height, int32_t stride,
                                 uint8_t** out_grayscale_buffer);
+
+    glm::mat4 GetRegionPoseFromFace(const ArSession *ar_session, const ArAugmentedFace *ar_face,
+                                    ArAugmentedFaceRegionType type);
 }  // namespace util
 }  // namespace hello_ar
 
