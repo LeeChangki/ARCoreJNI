@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef C_ARCORE_HELLOE_AR_POINT_CLOUD_RENDERER_H_
-#define C_ARCORE_HELLOE_AR_POINT_CLOUD_RENDERER_H_
+#ifndef C_ARCORE_POINT_CLOUD_RENDERER_H_
+#define C_ARCORE_POINT_CLOUD_RENDERER_H_
 
 #include <GLES2/gl2.h>
 #include <GLES2/gl2ext.h>

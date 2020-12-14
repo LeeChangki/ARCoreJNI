@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef C_ARCORE_AUGMENTED_IMAGE_AUGMENTED_IMAGE_RENDERER_H_
-#define C_ARCORE_AUGMENTED_IMAGE_AUGMENTED_IMAGE_RENDERER_H_
+#ifndef C_ARCORE_AUGMENTED_IMAGE_RENDERER_H_
+#define C_ARCORE_AUGMENTED_IMAGE_RENDERER_H_
 
 #include <android/asset_manager.h>
 

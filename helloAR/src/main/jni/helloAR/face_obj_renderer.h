@@ -2,8 +2,8 @@
 // Created by Changki Lee on 2020-12-14.
 //
 
-#ifndef SAMPLER_FACE_OBJ_RENDERER_H
-#define SAMPLER_FACE_OBJ_RENDERER_H
+#ifndef C_ARCORE_FACE_OBJ_RENDERER_H
+#define C_ARCORE_FACE_OBJ_RENDERER_H
 #include <GLES2/gl2.h>
 #include <GLES2/gl2ext.h>
 #include <android/asset_manager.h>
@@ -67,4 +67,4 @@ namespace hello_ar {
     };
 }  // namespace hello_ar
 
-#endif //SAMPLER_FACE_OBJ_RENDERER_H
+#endif //C_ARCORE_FACE_OBJ_RENDERER_H

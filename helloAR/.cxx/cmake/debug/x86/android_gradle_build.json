@@ -78,7 +78,9 @@
       ],
       "headers": [],
       "output": "D:\\ARCoreJNI\\helloAR\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so",
-      "runtimeFiles": []
+      "runtimeFiles": [
+        "D:\\ARCoreJNI\\helloAR\\build\\arcore-native\\jni\\x86\\libarcore_sdk_c.so"
+      ]
     }
   },
   "toolchains": {

@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef C_ARCORE_HELLO_AR_BACKGROUND_RENDERER_H_
-#define C_ARCORE_HELLO_AR_BACKGROUND_RENDERER_H_
+#ifndef C_ARCORE_BACKGROUND_RENDERER_H_
+#define C_ARCORE_BACKGROUND_RENDERER_H_
 
 #include <GLES2/gl2.h>
 #include <GLES2/gl2ext.h>

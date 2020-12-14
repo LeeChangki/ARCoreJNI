@@ -2,8 +2,8 @@
 // Created by Changki Lee on 2020-12-14.
 //
 
-#ifndef SAMPLER_AUGMENTED_FACE_RENDERER_H
-#define SAMPLER_AUGMENTED_FACE_RENDERER_H
+#ifndef C_ARCORE_AUGMENTED_FACE_RENDERER_H
+#define C_ARCORE_AUGMENTED_FACE_RENDERER_H
 
 #include <android/asset_manager.h>
 
@@ -39,4 +39,4 @@ namespace hello_ar {
     };
 
 }  // namespace hello_ar
-#endif //SAMPLER_AUGMENTED_FACE_RENDERER_H
+#endif //C_ARCORE_AUGMENTED_FACE_RENDERER_H

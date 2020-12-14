@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef C_ARCORE_HELLOE_AR_OBJ_RENDERER_
-#define C_ARCORE_HELLOE_AR_OBJ_RENDERER_
+#ifndef C_ARCORE_OBJ_RENDERER_
+#define C_ARCORE_OBJ_RENDERER_
 #include <GLES2/gl2.h>
 #include <GLES2/gl2ext.h>
 #include <android/asset_manager.h>
